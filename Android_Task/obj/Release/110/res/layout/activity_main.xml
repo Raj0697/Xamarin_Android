@@ -1,0 +1,44 @@
+<GridLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:columnCount="2" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"><ListView android:layout_width="190dp" android:layout_height="match_parent" android:id="@+id/Countryname" android:layout_row="0" android:layout_column="0" android:fastScrollEnabled="true" android:overScrollMode="ifContentScrolls" /><!--    <Space
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_row="1"
+        android:layout_column="0"/>--><ListView android:layout_width="180dp" android:layout_height="match_parent" android:id="@+id/Countryregion" android:fastScrollEnabled="true" android:overScrollMode="ifContentScrolls" android:layout_row="0" android:layout_column="1" /></GridLayout><!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:scrollbars="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    --><!--<ListView
+        android:layout_width="190dp"
+        android:layout_height="match_parent"
+        android:id="@+id/Countryname"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:fastScrollEnabled="true"
+        android:overScrollMode="ifContentScrolls"
+        />--><!--
+
+--><!--    <Space
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_row="1"
+        android:layout_column="0"/>--><!--
+
+    --><!--<ListView
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:id="@+id/Countryregion"
+        android:fastScrollEnabled="true"
+        android:overScrollMode="ifContentScrolls"
+        android:layout_row="0"
+        android:layout_column="1"/>--><!--
+
+</LinearLayout>-->
